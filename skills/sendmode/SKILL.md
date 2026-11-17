@@ -7,6 +7,8 @@ description: Entry point for any non-trivial task. Routes to a playbook and sets
 
 Entry skill. Capable model, trusted operator. *Send* = all the way, no hanging.
 
+Invoke as `/sendmode`, or it triggers on any non-trivial task. **It's a mode, not a one-shot:** once engaged, the defaults below govern the whole session until you override them.
+
 ## Defaults (override only if the task says so)
 
 - **Full send.** Code → verify → PR → merge, no approval stops. Confirm only irreversible / out-of-repo acts: force-push a shared branch, push to a remote you don't own, destructive ops on non-local data, deleting user data, prod deploys, spending money.
@@ -30,4 +32,4 @@ Entry skill. Capable model, trusted operator. *Send* = all the way, no hanging.
 | multi-day effort | `orchestrate` |
 | new project, no stack yet | `kickoff` |
 
-Load the principle skills the playbook names.
+Open a todo list from the chosen playbook's steps, then run it. Load the principle skills it names. Stay in mode across follow-ups — don't drop the defaults between turns.
