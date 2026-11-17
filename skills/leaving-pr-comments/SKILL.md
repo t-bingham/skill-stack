@@ -11,4 +11,4 @@ An agent is posting as you. Make the comments worth reading.
 - Say what and why, and the suggested change. No vague "consider refactoring."
 - Mark severity honestly: blocking vs nit. Don't dress a nit as a blocker.
 - Skip praise-noise and restating the diff. If there's nothing substantive, post nothing.
-- Plain, direct voice — no hedging, no filler.
+- Plain, direct voice — no hedging, no filler. `unslop` each comment before posting.

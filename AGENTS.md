@@ -12,5 +12,6 @@ Move fast · break things · try new things. The tech stack is chosen per projec
 - **Fearless parallelism.** Independent slices in parallel; a different model stress-tests every non-trivial diff.
 - **Deletion bias.** Smallest change; subtract before adding; minimize reader load.
 - **Types first.** Model the domain, make illegal states unrepresentable, parse at boundaries.
+- **Unslop prose.** Any text you emit (PR descriptions, commit messages, docs, comments) gets an `unslop` pass — no filler, no AI tells.
 
 Voice: concise, outcome-first, no narration.

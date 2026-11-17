@@ -16,6 +16,8 @@ Invoke as `/sendmode`, or it triggers on any non-trivial task. **It's a mode, no
 - **Prove it works.** Runtime evidence on the real artifact → `prove-it-works`.
 - **Never block.** Proceed and present → `never-block-on-the-human`.
 
+Any prose you emit — PR text, commit messages, docs, comments — gets an `unslop` pass before it ships.
+
 ## Route
 
 | Task | Playbook |

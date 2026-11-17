@@ -285,6 +285,7 @@ Lead with why. The diff speaks for the what.
 - Then the approach, briefly â€” and any decision a reviewer would question.
 - Skip the file-by-file list; the diff shows it. Link the issue if there is one.
 - Keep it short enough to read in 30 seconds. Format comments cleanly (`leaving-pr-comments`).
+- `unslop` the description and commit messages before they ship â€” no filler, no AI tells.
 
 
 
@@ -471,7 +472,7 @@ An agent is posting as you. Make the comments worth reading.
 - Say what and why, and the suggested change. No vague "consider refactoring."
 - Mark severity honestly: blocking vs nit. Don't dress a nit as a blocker.
 - Skip praise-noise and restating the diff. If there's nothing substantive, post nothing.
-- Plain, direct voice â€” no hedging, no filler.
+- Plain, direct voice â€” no hedging, no filler. `unslop` each comment before posting.
 
 
 
@@ -744,12 +745,16 @@ description: Entry point for any non-trivial task. Routes to a playbook and sets
 
 Entry skill. Capable model, trusted operator. *Send* = all the way, no hanging.
 
+Invoke as `/sendmode`, or it triggers on any non-trivial task. **It's a mode, not a one-shot:** once engaged, the defaults below govern the whole session until you override them.
+
 ## Defaults (override only if the task says so)
 
 - **Full send.** Code â†’ verify â†’ PR â†’ merge, no approval stops. Confirm only irreversible / out-of-repo acts: force-push a shared branch, push to a remote you don't own, destructive ops on non-local data, deleting user data, prod deploys, spending money.
 - **Fearless parallelism.** Independent slices â†’ `swarm`. Competing approaches â†’ `arena`. Every non-trivial diff â†’ `interrogate`. Keep bulk work off-thread â†’ `guard-the-context-window`.
 - **Prove it works.** Runtime evidence on the real artifact â†’ `prove-it-works`.
 - **Never block.** Proceed and present â†’ `never-block-on-the-human`.
+
+Any prose you emit â€” PR text, commit messages, docs, comments â€” gets an `unslop` pass before it ships.
 
 ## Route
 
@@ -767,7 +772,7 @@ Entry skill. Capable model, trusted operator. *Send* = all the way, no hanging.
 | multi-day effort | `orchestrate` |
 | new project, no stack yet | `kickoff` |
 
-Load the principle skills the playbook names.
+Open a todo list from the chosen playbook's steps, then run it. Load the principle skills it names. Stay in mode across follow-ups â€” don't drop the defaults between turns.
 
 
 
