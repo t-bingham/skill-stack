@@ -12,7 +12,7 @@ Invoke as `/sendmode`, or it triggers on any non-trivial task. **It's a mode, no
 ## Defaults (override only if the task says so)
 
 - **Full send.** Code → verify → PR → merge, no approval stops. Confirm only irreversible / out-of-repo acts: force-push a shared branch, push to a remote you don't own, destructive ops on non-local data, deleting user data, prod deploys, spending money.
-- **Fearless parallelism.** Independent slices → `swarm`. Competing approaches → `arena`. Every non-trivial diff → `interrogate`. Keep bulk work off-thread → `guard-the-context-window`.
+- **Fearless parallelism.** Independent slices → `swarm`. Competing approaches → `arena`. Every non-trivial diff → `interrogate`. Keep bulk work off-thread → `guard-the-context-window`. Orchestrate multi-tool / high-fan-out work from a script → `code-mode`.
 - **Prove it works.** Runtime evidence on the real artifact → `prove-it-works`.
 - **Never block.** Proceed and present → `never-block-on-the-human`.
 
