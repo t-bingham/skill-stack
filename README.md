@@ -21,8 +21,8 @@ The tech stack is never assumed. It's chosen per project, at `kickoff`, by what 
 - **3 · Parallelism** — `swarm` · `arena` · `interrogate` · `council`
 - **4 · PR lifecycle** — `file-pr` · `babysit-pr` · `full-send` · `takeover` · `modernize` · `leaving-pr-comments`
 - **5 · Kickoff** — `kickoff` (choose the stack per project)
-- **6 · Meta** — `how` · `why` · `teach` · `blast-radius` · `unslop` · `technical-writing` · `tdd` · `reflect` · `correct` · `setup`
+- **6 · Meta** — `how` · `why` · `teach` · `blast-radius` · `unslop` · `technical-writing` · `tdd` · `reflect` · `correct` · `setup` · `code-mode`
 
 ## Status
 
-Complete — **57 skills** across the 7 layers above, plus `AGENTS.md` and the ChatGPT port. All tech-agnostic. Nothing touches your live `~/.claude` until you install (see [INSTALL.md](INSTALL.md)).
+Complete — **58 skills** across the 7 layers above, plus `AGENTS.md` and the ChatGPT port. All tech-agnostic. Nothing touches your live `~/.claude` until you install (see [INSTALL.md](INSTALL.md)).

@@ -11,3 +11,4 @@ The main thread is for deciding. Send the grunt work elsewhere.
 - Independent slices → parallel workers (see `swarm`), each reporting a summary.
 - Keep the main context holding the plan and the findings, not raw output.
 - Ask for the answer, not the material to read yourself.
+- When a runtime can run code, orchestrate tools from a script and filter in code → `code-mode`.
